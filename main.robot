@@ -1,5 +1,5 @@
 *** Settings **
-Documentation     Crear busquedas en chromw.
+Documentation     Crear intalaciones de github en chrome.
 Library           SeleniumLibrary
 
 *** Variables ***
