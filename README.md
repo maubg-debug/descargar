@@ -27,4 +27,4 @@ Para iniciar el archivo simplemente ejecuta esto
 (env) $ robot main.robot
 ```
 
-Y ya estaria
+Y ya estaria, pero si lo necesitas tambien puedes cambiar el tiempo de espera antes de cerrar el browser

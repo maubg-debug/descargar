@@ -3,8 +3,9 @@ Documentation     Crear busquedas en chromw.
 Library           SeleniumLibrary
 
 *** Variables ***
-${BROWSER}        chrome
-${URL}            https://github.com/maubg-debug/descargar
+${BROWSER}          chrome
+${URL}              https://github.com/maubg-debug/descargar
+${ESPERA}           5
 
 *** Test Cases ***
 Main
@@ -18,6 +19,6 @@ Main
 
     # ${file}    Wait Until Keyword Succeeds    1 min    2 sec
 
-    Sleep 5s
+    Sleep   ${ESPERA}
 
     Close Browser
